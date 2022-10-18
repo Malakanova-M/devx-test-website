@@ -1,0 +1,46 @@
+h1 {
+  display: none;
+}
+@media screen and (max-width: 1500px) {
+  .Huge {
+    display: block;
+  }
+  body {
+    background-color: rgb(18, 126, 56);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .Desktop {
+    display: block;
+  }
+  body {
+    background-color: rgb(163, 44, 88);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Laptop {
+    display: block;
+  }
+  body {
+    background-color: rgb(230, 173, 181);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Tablet {
+    display: block;
+  }
+  body {
+    background-color: rgb(173, 173, 230);
+  }
+}
+@media screen and (max-width: 576px) {
+  .Mobile {
+    display: block;
+  }
+  body {
+    background-color: lightblue;
+  }
+}
